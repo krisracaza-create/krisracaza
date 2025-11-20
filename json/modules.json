@@ -9,7 +9,7 @@
   "description": null,
   "metadata": {
     "version": 1,
-    "timestamp": 1763642422.875687
+    "timestamp": 1763663383.707593
   },
   "modules": [
     {
@@ -78,14 +78,14 @@
     {
       "id": "mmrl_wpd",
       "name": "WiFi Password Viewer for MMRL",
-      "version": "5.7.7",
-      "versionCode": 460,
+      "version": "6.7.7",
+      "versionCode": 461,
       "author": "Der_Googler, veez21 @ xda-developers",
       "description": "View all your WiFi passwords and bluetooth devices inside MMRL",
       "added": 1445340430.7142262,
       "categories": [
-        "WebUI",
         "Tweaks and Hacks",
+        "WebUI",
         "Miscellaneous"
       ],
       "support": "https://github.com/Googlers-Repo/wpd/issues",
@@ -103,15 +103,17 @@
         "https://raw.githubusercontent.com/Googlers-Repo/wpd/master/assets/6.webp"
       ],
       "donate": "https://github.com/sponsors/DerGoogler",
-      "timestamp": 1739547916.0,
-      "size": 78894,
+      "note": {
+        "title": "Compose Update \ud83d\ude80",
+        "message": "The WPD interface has been fully rewritten using Compose UI for a modern and seamless experience."
+      },
+      "timestamp": 1757442541.0,
+      "size": 39773,
       "permissions": [
-        "magisk.permission.ACTION",
-        "kernelsu.permission.WEBUI"
+        "magisk.permission.ACTION"
       ],
       "features": {
-        "action": true,
-        "webroot": true
+        "action": true
       },
       "track": {
         "type": "GIT",
@@ -122,20 +124,20 @@
       },
       "versions": [
         {
-          "timestamp": 1735764644.0,
-          "version": "4.7.7",
-          "versionCode": 459,
-          "zipUrl": "https://example.com/modules/mmrl_wpd/4.7.7_459.zip",
-          "changelog": "",
-          "size": 462291
-        },
-        {
           "timestamp": 1739547916.0,
           "version": "5.7.7",
           "versionCode": 460,
           "zipUrl": "https://example.com/modules/mmrl_wpd/5.7.7_460.zip",
           "changelog": "",
           "size": 78894
+        },
+        {
+          "timestamp": 1757442541.0,
+          "version": "6.7.7",
+          "versionCode": 461,
+          "zipUrl": "https://example.com/modules/mmrl_wpd/6.7.7_461.zip",
+          "changelog": "",
+          "size": 39773
         }
       ]
     }
